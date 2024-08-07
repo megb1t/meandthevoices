@@ -1,0 +1,829 @@
+html,
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    font-family: "Khand";
+}
+
+footer {
+    position: absolute;
+    top: 38vw;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+
+section {
+
+   
+    margin-top: 2vw;
+    font-family: "Khand";
+    border: 1px solid;
+    padding-right: 8vw;
+    height: max-content;
+   
+    align-items: center;
+    background-color: transparent;
+    justify-items: center;
+    width: max-content;
+
+}
+
+.calcui{
+    position: relative;
+    top:-3vw;
+}
+
+.button{
+    font-family: "Khand";
+    border: 1px solid lightcoral;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: transparent;
+    font-weight: 600;
+    color: lightcoral;
+    margin: 0.3vw;
+
+    padding: 0.3vw;
+   
+    background-color: transparent;
+    
+        
+
+}
+
+.button:hover{
+    background-color: rgb(232, 232, 206);
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+.head_nav {
+    text-decoration: none;
+    font-size: 1.5vw;
+
+    color: lightcoral;
+
+    border: none;
+    font-family: "Khand";
+    font-weight: 600;
+}
+
+.head_nav_div {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    border: none;
+
+
+}
+
+.logo {
+    width: 5vw;
+    border: 1px solid black;
+
+}
+
+#intro {
+    text-align: center;
+}
+
+.search {
+
+    border: 0.1vw solid black;
+    width: 25vw;
+    font-size: 1.5vw;
+    height: 3.5vh;
+    border-radius: 0.29vw;
+    padding-right: 10.417px;
+    padding-bottom: 0.521px;
+    padding-top: 0.521px;
+    font-family: "Khand";
+}
+
+.srchico {
+    width: 2vw;
+}
+
+
+
+#sea {
+    background: transparent;
+    border: none;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login {
+    text-decoration: none;
+    color: lightcoral;
+    margin-right: 0.781vw;
+    padding: 0.26vw;
+    border: 0.052vw solid lightcoral;
+    border-radius: 0.26vw;
+    font-size: 1.2vw;
+    font-family: "Khand";
+    font-weight: 600;
+}
+
+
+.user {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.login:hover {
+    background-color: rgba(226, 157, 45, 0.058);
+}
+
+
+.signup {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    padding: 0.26vw;
+    border: 0.052vw solid lightcoral;
+    border-radius: 0.26vw;
+    background-color: lightcoral;
+    color: white;
+    font-family: "Khand";
+    font-weight: 600;
+
+
+
+}
+
+.foots {
+
+    float: left;
+    font-family: "Khand";
+    font-weight: 600;
+    font-size: large;
+}
+
+.choco {
+
+    font-family: "Khand";
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    left: 42vw;
+    top: 2.5vw;
+    text-align: center;
+}
+
+.footfor {
+    position: absolute;
+    right: 1vw;
+    width: 10vw;
+    text-align: right;
+    font-family: "Khand";
+    font-size: large;
+
+}
+.footsN {
+    display: block;
+
+}
+
+.sendmessage {
+    position: absolute;
+    right: 1vw;
+    top: 8vw;
+    text-align: right;
+    font-family: "Khand";
+    font-weight: 600;
+}
+
+.voicc {
+
+    font-size: 6.8vw;
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 0.001vw;
+
+
+}
+
+.sendmessage {
+    background-color: rgb(227, 142, 142);
+}
+
+.sendmessage:hover {
+    background-color: #ee6464;
+}
+
+
+
+.dropbtn {
+
+    background-color: transparent;
+    color: lightcoral;
+    padding: 5vw;
+    font-size: 16px;
+    border: none;
+}
+
+
+span:hover{
+
+    cursor:pointer;
+
+}
+
+#closebtn{
+
+    text-align: left;
+    font-size: larger;
+    
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+    position: absolute;
+    top: 23.95vw;
+    left: 82.56vw;
+    font-family: "Khand";
+    display: inline-block;
+}
+
+
+
+
+ .dropdown-content {
+    display: block;
+    position: absolute;
+    right: 90vw;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: "Khand", sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    color: lightcoral;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+
+.signup:hover {
+    background-color: rgb(243, 80, 80)
+}
+
+#nose {
+    padding-left: 2px;
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+}
+
+.info {
+
+    text-align: left;
+    padding-left: 12vw;
+    padding-top: 3vw;
+    font-family: "Khand";
+    font-weight: 600;
+    font-size: 5vw;
+
+}
+
+.connect {
+    font-family: "Khand";
+    text-align: center;
+    font-size: 3vw;
+}
+
+.butsoc {
+    position: absolute;
+    left: 38.5vw;
+}
+
+
+.instagram {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-family: "Khand";
+    font-weight: 600;
+}
+
+.dime {
+    width: 5vw;
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+
+    #abhead{
+        font-weight: 600;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .main{
+
+        
+        position: absolute;
+        left: 38vw;
+        top:12.5vw;
+    }
+
+    #myimg{
+        width: 18vw;
+    }
+
+
+    .dropdown {
+        display: none;
+    }
+
+    .voicc {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    footer {
+        position: absolute;
+        top: 48vw;
+    }
+
+    .sendmessage {
+        top: 11vw;
+    }
+
+    .footfor {
+        width: 12.6vw;
+    }
+
+    .choco {
+        top: 4.6vw
+    }
+    .time{
+        font-size: 2rem;
+        position: absolute;
+        top: 15vw;
+        left: 30vw;
+        font-family: "Khand";
+    }
+    
+    #timelab{
+        
+        font-family: "Khand";
+    }
+
+    #myimg:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+    
+    .socialss{
+        position: relative;
+        top:6vw;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    #abhead{
+        font-weight: 600;
+        font-size: larger;
+        text-align: center;
+    }
+
+    #myimg{
+        width: 18vw;
+    }
+
+
+    .main{
+
+        
+        position: absolute;
+        left: 38vw;
+        top:12.5vw;
+    }
+
+    .time{
+        font-size: 2rem;
+        position: absolute;
+        top: 15vw;
+        left: 28vw;
+        font-family: "Khand";
+    }
+    
+    #timelab{
+        
+        font-family: "Khand";
+    }
+    
+
+    .dropdown {
+        display: none;
+    }
+
+    .voicc {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    footer {
+        top: 38vw;
+    }
+
+    .sendmessage {
+        top: 11vw;
+    }
+
+    .footfor {
+        width: 12.6vw;
+    }
+
+    .choco {
+        top: 4.6vw
+    }
+
+    #myimg:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    #myimg:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+
+
+    #abhead{
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    #myimg{
+        width: 18vw;
+    }
+
+    .main{
+
+        
+        position: absolute;
+        left: 38vw;
+        top:12.5vw;
+    }
+
+    .time{
+        font-size:2rem;
+        position: absolute;
+        top: 15vw;
+        left: 28vw;
+        font-family: "Khand";
+    }
+    
+    #timelab{
+        
+        font-family: "Khand";
+    }
+    
+
+    .butsoc {
+        position: absolute;
+        top: 40vw;
+    }
+
+    .connect {
+        position: absolute;
+        top: 32vw;
+        left: 42.5vw;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .voicc {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    footer {
+        top: 60vw;
+    }
+
+    .sendmessage {
+        top: 16vw;
+    }
+
+    .footfor {
+        width: 19vw;
+    }
+
+    .choco {
+        top: 4.6vw
+    }
+}
+
+
+@media (max-width:600px){
+    footer{
+        position: relative;
+        top:140vw;
+    }
+
+    #imageofDev{    
+        position: absolute;
+        top:15.5vw;
+        left: 28vw;    
+    }
+
+    #myimg:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+
+    #hi{
+        position: absolute;
+        top: 40vw;
+        min-width: 100%;
+        left: 1vw;
+    }
+
+
+    #abhead{
+        position: absolute;
+        top:4vw;
+        left: 35vw;
+        font-size: large;
+    }
+
+    .main{
+        position: absolute;
+        top:28vw;
+        width: 100%;
+        height: 100%;    
+    }
+    #myimg{
+        width: 30vw;   
+    }
+
+
+    section{
+        position: absolute;
+        top:35vw;
+        left: 5vw;
+    }
+    .head_nav{
+        display: none;
+    }
+
+    .info{
+        position: absolute;
+        top: 15.5vw;
+    }
+
+    .calcui{
+        position: absolute;
+        top:12.5vw;
+    }
+    .logo {
+        width: 15vw;
+        position: absolute;
+        left: 0vw;
+        top:6vw;
+    }
+    .connect {
+        font-family: "Khand";
+        text-align: center;
+        font-size: 5vw;
+        position: absolute;
+        top: 58vw;
+        right: 34vw;
+    }
+
+    .instagram {
+        background-color: transparent;
+        border: none;
+    }
+
+    .voicc{
+        position: absolute;
+        top: 0%;
+    }
+
+    .search {
+        position: absolute;
+        width: 44vw;
+        right: 25.6vw;
+        top: 15vw;
+        height: 3vh;
+    }
+
+    section{
+        position: absolute;
+        left: 2vw;
+        border: none;
+    }
+
+    .srchico {
+        position: absolute;
+        right: 30vw;
+        top: 16.5vw;
+    }
+
+    .user {
+        position: absolute;
+        flex-direction: column;
+        right: 10vw;
+        top: 2.3vw;
+    }
+
+    .button{
+        padding: 1.5vw;
+        margin: 0.5vw;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .signup {
+        padding-right: 2vw;
+        padding-left: 2vw;
+        position: absolute;
+        top: 9vw;
+        left: -9.5vw;
+        font-size: 3vw;
+    }
+
+    
+
+    .butsoc {
+        position: absolute;
+        left: 32vw;
+        top: 73vw;
+        float: left;
+    }
+
+    .dime {
+        width: 5.8vw;
+    }
+
+    /* footer {
+        top: 150vw;
+    } */
+
+    #img2Txt{
+        padding: 0px;
+        margin: 0px;
+        width: 50%;
+        position: relative;
+        top:21vw;
+        left: 44vw;
+
+    }
+
+    .homeimg{
+        border: 1px solid;
+    }
+
+    #img1Txt{
+        padding: 0px;
+        margin: 0px;
+        width: 50%;
+        position: relative;
+        top:15vw;
+        left: 44vw;
+    }
+    #cse{
+        width: 40vw;
+    }
+    #cse:hover{
+        
+        transform: scale(1.1);
+        transition-duration: 0.2s;
+    }
+    #codeImg:hover{
+        transform: scale(1.1);
+        transition-duration: 0.2s;
+    }
+
+    #codeImg{
+        width: 40vw;;
+    }
+
+    .socialss {
+        margin-top: 30vw;
+    }
+
+    .foots {
+        float: left;
+    }
+
+    .footfor {
+        position: absolute;
+        right: 1vw;
+        margin: 1vw;
+        text-align: right;
+        font-family: "Khand";
+        width: 42vw;
+        font-size: 0.9rem;
+    }
+
+    .foots {
+        text-align: left;
+        font-family: "Khand";
+        font-weight: 600;
+    }
+
+    #addressAdmin{
+        position: relative;
+        top:6vw;
+        font-size: 0.9rem;
+    }
+
+    .sendmessage {
+        background-color: lightcoral;
+        position: absolute;
+        top: 31vw;
+        left: 52vw;
+        width: 42vw;
+        text-align: right;
+        font-family: "Khand";
+        font-size: 0.9rem;
+    }
+
+    .choco {
+        display: none;
+    }
+
+    h6{
+        position: absolute;
+        top: -6vw;
+        margin-bottom: 2vw;
+       
+    }
+    .time{
+        position: absolute;
+        right: 15.5vw;
+        top:52.5vw;
+        font-family: "Khand";
+    }
+
+    #timelab{    
+        font-family: "Khand";
+    }
+}
+
+
+
+
+

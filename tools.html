@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me and the voices</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fav_ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="logo.jpg"><img src="logo.jpg" class="logo" alt="logo"></a>
+        <p class="voicc">Me and the Voices</p>
+        <div class="head_nav_div">
+            <a class="head_nav" href="index.html">Home</a>
+            <a class="head_nav" href="about.html">About</a>
+            <a class="head_nav" href="tools.html">Tools</a>
+            <a class="head_nav" href="socials.html">Socials</a>
+        </div>
+        <div id="sear">
+            <input class="search" type="text" placeholder="Search">
+            <button id="sea"><a href="#"><img class="srchico" src="search.png" alt=""></a></button>
+        </div>
+        <div class="user">
+            <a class="login" href="">Login</a>
+            <a class="signup" href="">Signup</a>
+        </div>
+    </header>
+
+
+    <div class="phoneNav">
+        <div class="dropdown">
+            <!-- <button id = "nose" class="dropbtn" onclick="openNav()">&#9776</button> -->
+            <div id="chococococo" class="dropdown-content">
+                <a href="javascript: void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+                <a class="head_nav" href="index.html">Home</a>
+                <a class="head_nav" href="about.html">About</a>
+                <a class="head_nav" href="tools.html">Tools</a>
+                <a class="head_nav" href="socials.html">Socials</a>
+            </div>
+
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <p class="info">Tools</p>
+
+    <main>
+
+
+        <section>
+            <form name="sum">
+                <h4>Calculator</h4><br>
+                <div class="calcui">
+                    <input style="font-family: Khand;" ; type="number" name="num1" placeholder="first number">
+                    <br>
+
+                    <div class="calcbutton">
+                        <input type="button" value="sum" class="button" onclick="return add()">
+                        <input type="button" value="factorial" class="button" onclick="return printFact()">
+
+                        <input type="button" value="diff" class="button" onclick="return diff()"><br>
+
+                        <input type="button" value="prod" class="button" onclick="return prod()">
+
+                        <input type="button" value="div" class="button" onclick="return div()">
+                        <input type="reset" value="reset all" class="button"
+                            style="color:black; border: 1px solid black;">
+                        <br>
+                    </div>
+                    <input style="font-family: Khand;" type="number" name="num2" placeholder="second number">
+
+                    <p>Result:</p>
+                    <p id="result"></p>
+
+                </div>
+
+
+
+
+
+
+            </form>
+        </section>
+
+        <div class="time">
+            <p id="timelab">Current Date & Time: </p>
+            <span id="currTime"></span>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="foots">
+            <h6>CONTACT US: </h6>
+            <P id="addressAdmin">Address: Nishant Kr,<br>Government Polytechnic <br> Saharsa, 852201, Bihar <br>Ph: 8210609544</P>
+
+        </div>
+
+        <div class="choco">
+            <p>Me and the Voices &copy; 2024 <br> All Rights Reserved</p>
+        </div>
+
+        <div class="foots">
+
+            <form name="m2a" action="">
+                <input type="text" name="name" class="footfor" id="" placeholder="Enter Your Name"><br><br>
+
+                <textarea class="footfor" placeholder="Enter your query"></textarea><br>
+                <button class="sendmessage">Send Your message
+                </button>
+
+            </form>
+
+        </div>
+
+    </footer>
+    <script src="voices.js"></script>
+
+    <script>
+        function updateDateTime() {
+
+            const now = new Date();
+
+            const currentDateTime = now.toLocaleString();
+
+            document.querySelector('#currTime').textContent = currentDateTime;
+            console.log(currentDateTime);
+
+        }
+
+        setInterval(updateDateTime, 1000);
+    </script>
+
+</body>
+
+</html>

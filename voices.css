@@ -1,0 +1,1490 @@
+@media (max-width:600px) {
+    main {
+        position: relative;
+        top: 25vw;
+        min-width: 80%;
+        margin-left: 1vw;
+        margin-top: 6vw;
+        margin-right: 1vw;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    #homepg {
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    #bihSpan {
+        position: relative;
+        left: 65vw;
+        top: 38vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 0.7rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 4vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+
+
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vw;
+        height: 100vw;
+
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 28vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        margin-top: 1vw;
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 120vw;
+        height: 145vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 135vw;
+        width: 60vw;
+        left: 3vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 38vw;
+        width: 55vw;
+        left: 38vw;
+        font-size: 0.8rem;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 89vw;
+        left: 32vw;
+
+
+    }
+
+    #clickHere {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        background-size: 550vw 150vh;
+        height: 160vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 30vw;
+        top: 60vw;
+        width: 60vw;
+        font-size: 0.8rem;
+        display: none;
+    }
+
+    #homedes {
+        text-align: right;
+        left: 6vw;
+        top: 100vw;
+        width: 60vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 13vw;
+        width: 80vw;
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 15vw;
+        width: 80vw;
+        /* left: 30vw; */
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 18vw;
+        width: 80vw;
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+
+
+    #bihSpan {
+        position: relative;
+        left: 65vw;
+        top: 12vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.7rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 7vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.7rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+
+
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 38vw;
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 20vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        margin-top: 1vw;
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 50vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 35vw;
+        width: 24vw;
+        left: 2vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 13vw;
+        width: 40vw;
+        left: 58vw;
+        font-size: 0.8rem;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 40vw;
+        left: 83vw;
+
+
+    }
+
+    #clickHere {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        height: 40vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 20vw;
+        top: 20vw;
+        width: 75vw;
+        font-size: 0.8rem;
+        display: none;
+    }
+
+    #homedes {
+        left: 30vw;
+        top: 30vw;
+        width: 70vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 2.5vw;
+        width: 80vw;
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 2vw;
+        width: 80vw;
+        /* left: 30vw; */
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 5vw;
+        width: 80vw;
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 800px) and (max-width:1024px) {
+
+    #bihSpan {
+        position: relative;
+        left: 65vw;
+        top: 12vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 7vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+
+
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 38vw;
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 20vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        margin-top: 1vw;
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 50vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 35vw;
+        width: 24vw;
+        left: 2vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 13vw;
+        width: 40vw;
+        left: 58vw;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1.5rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 40vw;
+        left: 83vw;
+
+
+    }
+
+    #clickHere {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 2rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        height: 40vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 20vw;
+        top: 20vw;
+        width: 75vw;
+        display: none;
+    }
+
+    #homedes {
+        left: 30vw;
+        top: 30vw;
+        width: 70vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 2.5vw;
+        width: 80vw;
+        display: none;
+        font-size: 0.9rem;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 4vw;
+        width: 80vw;
+        /* left: 30vw; */
+        display: none;
+        font-size: 0.9rem;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 5vw;
+        width: 80vw;
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width:1360px) {
+
+
+    #bihSpan {
+        position: relative;
+        left: 68vw;
+        top: 16.5vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 2.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.4rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 4.5vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.4rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+
+
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 38vw;
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 20vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        margin-top: 1vw;
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 50vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 35vw;
+        width: 24vw;
+        left: 2vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 20vw;
+        width: 40vw;
+        left: 58vw;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1.5rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 40vw;
+        left: 83vw;
+
+
+    }
+
+    #clickHere {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 2rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        height: 40vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 18vw;
+        top: 18vw;
+        width: 50vw;
+        display: none;
+    }
+
+    #homedes {
+        left: 30vw;
+        top: 31vw;
+        width: 50vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 6vw;
+        width: 80vw;
+        display: none;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 10vw;
+        width: 80vw;
+        /* left: 30vw; */
+        display: none;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 8vw;
+        width: 55vw;
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1360px) and (max-width: 1530px) {
+
+    #bihSpan {
+        position: relative;
+        left: 68vw;
+        top: 16.5vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 2.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.4rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 8.5vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.4rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin-left: 2vw;
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 38vw;
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 20vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        margin-top: 1vw;
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 50vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 35vw;
+        width: 24vw;
+        left: 2vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 20vw;
+        width: 20vw;
+        left: 16vw;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1.5rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 40vw;
+        left: 83vw;
+
+
+    }
+
+    #clickHere {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 2rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        height: 40vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 2vw;
+        top: 10.5vw;
+        width: 38vw;
+        display: none;
+    }
+
+    #homedes {
+        left: 23.5vw;
+        top: 24vw;
+        width: 34.5vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 2vw;
+        width: 90vw;
+        display: none;
+        font-size: 1.5rem;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 4vw;
+        width: 90vw;
+        /* left: 30vw; */
+        display: none;
+        font-size: 1.6rem;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 3vw;
+        width: 90vw;
+        display: none;
+        font-size: 1.8rem;
+
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+}
+
+@media (min-width:1530px) and (max-width:1920px) {
+
+    #bihSpan {
+        position: relative;
+        left: 68vw;
+        top: 16.5vw;
+    }
+
+    #spanBih {
+        background-color: lightcoral;
+        font-family: "Khand";
+        font-size: 2.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: white;
+
+    }
+
+    #spanBih:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .butDet {
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin: 8.5vw;
+
+    }
+
+
+
+    .butDetl {
+
+        background-color: rgb(138, 218, 234);
+        font-family: "Khand";
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: 1px solid black;
+        color: black;
+        margin-left: 2vw;
+
+
+    }
+
+    .butDetl:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    /* #pcpBih{
+        position: relative;
+        left: 2vw;;
+    } */
+
+    #cnoBih {
+        position: relative;
+        left: 5vw;
+        top: -10vw;
+    }
+
+    #pcpBih {
+        position: relative;
+        top: -10vw;
+    }
+
+    #tcse {
+        position: relative;
+        top: -10vw;
+    }
+
+    .butDet:hover {
+        background-color: rgb(103, 197, 234);
+        border: 1px solid rgb(103, 197, 234);
+        transition-duration: 0.5s;
+    }
+
+    .cseBihar {
+        margin-top: 1vw;
+        background: url(top-view-pink-keyboard-with-copyspace.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 38vw;
+    }
+
+    #dropDowBih {
+        position: relative;
+        top: 20vw;
+
+    }
+
+    .detailsofBih {
+        float: left;
+        margin: 5vw;
+    }
+
+    #bihDetails {
+        background: url(desk-concept-arrangement-with-keyboard.jpg);
+        margin-top: 1vw;
+        background-repeat: no-repeat;
+        background-size: 100vw 80vw;
+        height: 50vw;
+
+    }
+
+
+
+    #bihar {
+        position: absolute;
+        top: 35vw;
+        width: 24vw;
+        left: 2vw;
+    }
+
+    #cseBihText {
+        position: relative;
+        top: 22vw;
+        width: 20vw;
+        left: 16vw;
+
+    }
+
+    #knowBihar {
+        background: transparent;
+        font-family: "Khand";
+        color: aqua;
+        font-size: 1.5rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #knowBihar:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #buttonforhome {
+        position: absolute;
+        top: 30vw;
+        left: 78vw;
+
+
+    }
+
+    #clickHere {
+        background: rgba(18, 206, 235, 0.537);
+        font-family: "Khand";
+        color: white;
+        font-size: 2rem;
+        border: 1px solid rgb(8, 191, 200);
+    }
+
+    #clickHere:hover {
+        background-color: rgb(76, 129, 209);
+        color: rgb(207, 225, 239);
+        transition-duration: 0.5s;
+    }
+
+    #homepg {
+        text-align: center;
+        color: skyblue;
+        position: absolute;
+        left: 4.5vw;
+        top: 14vw;
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+
+
+    .hometitle {
+        background: url(2202758.jpg);
+        background-repeat: no-repeat;
+        height: 40vw;
+    }
+
+    .hometitle p {
+        color: white;
+        position: absolute;
+        right: 2vw;
+        top: 35vw;
+        width: 32vw;
+        display: none;
+    }
+
+    #homedes {
+        left: 20vw;
+        top: 19vw;
+        width: 25vw;
+    }
+
+    #hometit {
+        border: 1px solid black;
+    }
+
+    #hideit {
+        display: none;
+    }
+
+    #cnofirst {
+        position: relative;
+        top: 2vw;
+        width: 90vw;
+        display: none;
+        font-size: 1.5rem;
+    }
+
+    #pcpsec {
+        position: relative;
+        top: 4vw;
+        width: 90vw;
+        /* left: 30vw; */
+        display: none;
+        font-size: 1.6rem;
+    }
+
+    #tcsethir {
+        position: relative;
+        /* left: 60vw; */
+        top: 3vw;
+        width: 90vw;
+        display: none;
+        font-size: 1.8rem;
+
+    }
+
+    footer {
+        position: relative;
+        top: 0vw;
+    }
+
+    #maybeusedLater {
+        display: none;
+    }
+
+}

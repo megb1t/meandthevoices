@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me and the voices</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="fav_ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+
+</head>
+
+<body>
+    <header>
+
+
+
+        <a href="logo.jpg"><img src="logo.jpg" class="logo" alt="logo"></a>
+        <p class="voicc">Me and the Voices</p>
+        <div class="head_nav_div">
+            <a class="head_nav" href="index.html">Home</a>
+            <a class="head_nav" href="about.html">About</a>
+            <a class="head_nav" href="tools.html">Tools</a>
+            <a class="head_nav" href="socials.html">Socials</a>
+        </div>
+        <div id="sear">
+            <input class="search" type="text" placeholder="Search">
+            <button id="sea"><a href="#"><img class="srchico" src="search.png" alt=""></a></button>
+        </div>
+        <div class="user">
+            <a class="login" href="">Login</a>
+            <a class="signup" href="">Signup</a>
+
+        </div>
+
+
+
+    </header>
+
+
+
+
+    <div class="phoneNav">
+        <div class="dropdown">
+            <div id="chococococo" class="dropdown-content">
+                <a href="javascript: void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+                <a class="head_nav" href="index.html">Home</a>
+                <a class="head_nav" href="about.html">About</a>
+                <a class="head_nav" href="tools.html">Tools</a>
+                <a class="head_nav" href="socials.html">Socials</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+
+
+        </div>
+
+        <p class="info">About</p>
+
+        <!-- 
+
+        <div class="main">
+            <p id="abhead">About the Developer!</p>
+
+            <div id="imageofDev"><span><img src="me.jpg" alt="" id="myimg"></span>
+                <p id="hi">Click on the dev image to know more about them.
+                </p>
+            </div>
+        </div> -->
+
+        <main>
+            <div id="aboutBG">
+
+                <div id="welTxt">
+
+                    <span id="textofDev">
+                        <p id="welcoming">Hey!</p>
+                    </span>
+                    <aside id="briefDev">
+                        <p id="introToMe"> I am Nishant, <br> A casual <span id="webD">web developer.</span></p>
+                    </aside>
+                </div>
+
+
+
+                <span id="devImg"><img src="me.jpg" alt="" id="myimg" onclick="scrollHere()">
+
+                </span>
+                <p id="clickit">Click on my image to know more!</p>
+
+
+
+
+            </div>
+
+            <div id="aboutBg2">
+
+                <div id="introMyself">
+                    <p id="aboutmeg">
+                        My full name is <span id="myName">Nishant Kr</span> and I like <span id="pizza">pizzas</span>.
+                    </p>
+                    <p id="realint">
+                        And yes, other than pizzas I like to implement my thoughts and creativity on the web and
+                        learning new technologies.
+                    </p>
+                    <p id="addit">People often find me helpful because I always like to dive deep into the resources and
+                        provide the most of it!</p>
+                </div>
+
+                <span id="headforskill">
+                    <button id="skilShow" onclick="viewSkills()">My current skills</button>
+                </span>
+
+                <aside id="preText">
+                    Click on the button above to get an brief overview of my current skills.
+                </aside>
+
+                <div id="myskills">
+
+                        
+                        <span class="htmlskill">HTML</span>
+                        <div class="contain">
+                            <div class="HTML">80%</div>
+                        </div>
+                        <span class="htmlskill">CSS</span>
+                        <div class="contain">
+                            <div class="css">70%</div>
+                        </div>
+                        <span class="htmlskill">JavaScript</span>
+                        <div class="contain">
+                            <div class="js">30%</div>
+                        </div>
+                        <span class="htmlskill">Python</span>
+                        <div class="contain">
+                            <div class="py">40%</div>
+                        </div>
+                        <span class="htmlskill">C</span>
+                        <div class="contain">
+                            <div class="c">75%</div>
+                        </div>
+                        <span class="htmlskill">C++</span>
+                        <div class="contain">
+                            <div class="cpp">30%</div>
+                        </div>
+
+                
+
+                    <button id="closeSkill" onclick="hideSkills()">
+                        Hide
+                    </button>
+
+
+
+                </div>
+
+            </div>
+        </main>
+
+
+
+        <footer>
+            <div class="foots">
+                <h6>CONTACT US: </h6>
+                <P id="addressAdmin">Address: Nishant Kr,<br>Government Polytechnic <br> Saharsa, 852201, Bihar <br>Ph:
+                    8210609544</P>
+
+            </div>
+
+            <div class="choco">
+                <p>Me and the Voices &copy; 2024 <br> All Rights Reserved</p>
+            </div>
+
+            <div class="foots">
+
+
+
+                <form action="">
+                    <input type="text" name="name" class="footfor" id="" placeholder="Enter Your Name"><br><br>
+
+                    <textarea class="footfor" placeholder="Enter your query"></textarea><br>
+                    <button class="sendmessage">Send Your message
+                    </button>
+
+                </form>
+
+
+            </div>
+
+        </footer>
+        <script src="voices.js">
+
+        </script>
+        <script>
+
+
+            const scrollHere = () => {
+                // document.getElementById("skilShow").scrollIntoView();
+
+                scrollTo(600, 600)
+            }
+
+            const viewSkills =() => {
+                document.querySelector("#myskills").style.display="block";
+                document.querySelector("#preText").style.display="none";
+            }
+            const hideSkills =() => {
+                document.querySelector("#myskills").style.display="none";
+                document.querySelector("#preText").style.display="block";
+            }
+
+
+
+        </script>
+</body>
+
+</html>

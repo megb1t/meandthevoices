@@ -1,0 +1,1326 @@
+@media(max-width:600px){
+
+    #aboutBG {
+        position: relative;
+        top:26vw;
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vw;
+        height: 130vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 4vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 4vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:28vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 1rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-45vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-30vw;
+        width: 45vw;
+        display: none;
+        
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 0.8rem;
+        top:180vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 1rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 0.5rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:18vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:50vw;
+        font-size: 0.7rem;
+        top:32vw;
+        width: 40vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 100vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+
+    #myimg{
+        position: relative;
+        top:25vw;
+        right:20vw
+    }
+
+
+}
+
+    @media(min-width:600px) and (max-width:900px){
+
+    
+    #aboutBG {
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 205vw 200vw;
+        height: 40vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 5vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:5vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 1rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-15.5vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-0vw;
+        width: 45vw;
+        display: none;
+        
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 1rem;
+        top:65vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 1rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 0.5rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:18vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:70vw;
+        font-size: 0.8rem;
+        top:10vw;
+        width: 25vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 65vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+
+}
+
+
+@media(min-width:600px) and (max-width:900px){
+
+    
+    #aboutBG {
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 205vw 200vw;
+        height: 40vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 5vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:5vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 1rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-15.5vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-0vw;
+        width: 45vw;
+        display: none;
+        
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 1rem;
+        top:65vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 1rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 0.5rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:18vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:70vw;
+        font-size: 0.8rem;
+        top:10vw;
+        width: 25vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 65vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+
+}
+
+
+
+@media(min-width:900px) and (max-width:1024px){
+
+    #aboutBG {
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 205vw 200vw;
+        height: 40vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 5vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:5vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 1rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-15.5vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-0vw;
+        width: 45vw;
+        display: none;
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 1rem;
+        top:65vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 1rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 0.5rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:12vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 0.8rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:70vw;
+        top:10vw;
+        width: 30vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 40vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1450px){
+
+    #aboutBG {
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 205vw 200vw;
+        height: 40vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 5vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:5vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 2rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-15.5vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-0vw;
+        width: 45vw;
+        display: none;
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 1.8rem;
+        top:65vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 2rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 0.8rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 1.2rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:12vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 1.2rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:72vw;
+        top:10vw;
+        width: 30vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 40vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+    #aboutBG {
+        background-image: url(fht6.jpg);
+        background-repeat: no-repeat;
+        background-size: 205vw 200vw;
+        height: 40vw;
+    }
+
+    #devImg{
+        position: relative;
+        left:72vw;
+        top:10vw;
+    }
+
+    #welcoming{
+        color: white;
+        font-size: 5vw;
+        font-weight: 600;
+        position: absolute;
+        top:5vw;
+        left:8vw;
+    }
+
+    #introToMe{
+        color: white;
+        font-size: 5vw;
+    }
+    #briefDev{
+
+        position: absolute;
+        top:12vw;
+        left:7.6vw;
+
+    }
+
+   
+    #welTxt{
+        position: relative;
+        top:5vw;
+    }
+    #skilShow{
+        font-family: "Khand";
+        background:transparent;
+        font-weight: 600;
+        color:white;
+        font-size: 2rem;
+    }
+
+    #headforskill{
+        position: relative;
+        top:-15.5vw;
+        font-size: 2rem;
+        left:11vw;
+        font-weight: 600;
+        color:white;
+    }
+
+    #allmyinfo{
+        position: relative;
+        border: 1px solid white;
+    }
+
+    #myskills{
+        color:white;
+        border: none;
+        position: relative;
+        top:-0vw;
+        width: 45vw;
+        display: none;
+    }
+
+   
+
+    #webD{
+        color:  rgb(24, 194, 199);
+    }
+
+    #preText{
+        color: lavender;
+        width: 25vw;
+        position: absolute;
+        left:7vw;
+        font-size: 1.8rem;
+        top:65vw;
+        
+    }
+
+    #closeSkill{
+        position: relative;
+        top:-30vw;
+        background: transparent;
+        color: white;
+        font-family: "Khand";
+        font-weight: 600;
+        font-size: 2rem;
+        left:32vw;
+    }
+
+
+
+    .contain{
+        width:25vw;
+
+        border:1px solid white;
+        position: relative;
+        top:-15vw;
+        left:5vw;
+    }
+
+
+    .HTML{
+        width:20vw;
+        background-color: rgb(122, 16, 102);
+        text-align: center;
+    }
+    
+
+    .css, .c, .js, .py, .css{
+        text-align: center;
+    }
+
+    .css{
+        width:17.5vw;
+        background-color:rgb(10, 163, 135);
+    }
+
+    .js{
+        width:7.5vw;
+        background-color: blue;
+    }
+
+    .py{
+        width: 10vw;
+        background-color: red;
+    }
+
+    .c{
+        width: 18.75vw;
+        background-color: green;
+    }
+
+    .cpp{
+        width:7.5vw;
+        background-color: rgb(115, 112, 4);
+    }
+
+    .htmlskill{
+        
+        position: relative;
+        top:-15vw;
+        left:5vw;
+        font-size: 2rem;
+        
+    }
+
+    
+
+   
+
+    #aboutmeg{
+        color:white;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    #myName{
+        color:rgb(12, 215, 124);
+    }
+    #pizza{
+        color:rgb(17, 209, 216);
+    }
+    #realint{
+        color: rgb(158, 222, 215);
+        margin-top: 0%;
+        font-size: 1.8rem;
+        margin-bottom: 4%;
+    }
+
+    #introMyself{
+        position: relative;
+        top:12vw;
+        width:44vw;
+        text-align: right;
+        left:47vw;
+    }
+
+    #addit{
+        color:rgb(10, 206, 236);
+        margin-top: 0%;
+        font-size: 1.8rem;
+        margin-bottom: 0%;
+    }
+    #clickit{
+        color: white;
+        position: relative;
+        left:75vw;
+        top:10vw;
+        width: 15vw;
+        
+    }
+    #aboutBg2{
+        margin-top:1vw;
+        background-image: url(about.jpg);  
+        background-repeat: no-repeat;
+        height: 40vw;
+        background-size: 100vw 100vw; 
+    }
+
+    footer{
+        position: relative;
+        top:1vw;
+    }
+}
