@@ -86,6 +86,19 @@ body {
     font-size: 1rem;
 }
 
+#logB{
+
+    width: 25vw;
+    font-family: "Khand";
+    background-color: rgb(10, 168, 173);
+    border: 1px solid rgb(10, 168, 173);
+    color: white;
+    border-radius: 1vw;
+    height: 6vh ;
+    font-size: 1rem;
+
+}
+
 
 #newuser{
     text-decoration: none;
@@ -128,9 +141,9 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(11, 177, 223) ;
-    padding: 0.8vw;
+    padding: 1vw;
     box-shadow: 0 0 10px rgba(15, 211, 233, 0.291);
-    border-radius: 1vw;
+    border-radius: 2vw;
 }
 
 #titleoflogo{
@@ -194,19 +207,27 @@ body {
         width: 58vw;
     }
 
+    #logB{
+        width:78vw;
+    }
+
 
     #signupBox{
-        height: 50vh;
+        height: fit-content;
+        width: 80vw;
     }
 
     .signupinput{
         color:white;
         font-size: 1.2rem;
+        width: 78vw;
     }
     .signupinput::placeholder{
         color:white;
         font-size: 1.2rem;
     }
+
+
 
 
 }
