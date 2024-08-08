@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="fav_ico.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style_login.css">
-    <link rel="shortcut icon" href="fav_ico.jpg" type="image/x-icon">
     <title>Login</title>
 </head>
 <body>
@@ -16,16 +15,16 @@
        
             <div id="loginBox">
                 <p id="loginText">Me and the Voices</p>
-                <form action="" id="loginForm">
+                <form action="" name="loginForm">
                    
-                    <div class="inputArea"><input type="email" class="input" id="userid" placeholder="username" required>
+                    <div class="inputArea"><input type="email" name="userid" class="input" id="userid" placeholder="username" >
                     </div>
                     
-                    <div class="inputArea"><input type="password" class="input" name="passwordUser" id="userPass" placeholder="password" required></div>
+                    <div class="inputArea"><input type="password" class="input" name="passwordUser" id="userPass" placeholder="password" ></div>
     
                     
                     <div class="buttonforlogin">
-                        <button type="submit" id="logb">
+                        <button type="submit" id="logb" onclick="loginValidate()">
                             Login
                         </button>
                     </div>
@@ -35,5 +34,6 @@
             </div>
       
     </main>
+    <script src="loginValidate.js"></script>
 </body>
 </html>

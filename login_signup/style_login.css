@@ -1,3 +1,6 @@
+/* Login part  */
+
+
 html,
 body {
     background-image: url(peakpx\ \(2\).jpg);
@@ -45,7 +48,6 @@ body {
     font-size: 1.5rem;
     margin-top: 0%;
     font-weight: 600;
-    /* color: rgb(0, 0, 0) */
     color:rgb(0, 255, 217);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black ;
     
@@ -60,11 +62,13 @@ body {
     border: 1px solid rgb(11, 177, 223);
     background-color: transparent;
     color:white;
+    font-family: "Khand";
     font-size: 1rem;
     
 }
 
 .input::placeholder{
+    font-family: "Khand";
     font-size: 1rem;
     color:white
   }
@@ -103,4 +107,106 @@ body {
 #hypeforsig{
     margin-top: 1.5vh;
     text-align: center;
+}
+
+/* Signup Part */
+
+#signupMain{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#signupBox{
+    height: 65vh;
+    width: fit-content;
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(11, 177, 223) ;
+    padding: 0.8vw;
+    box-shadow: 0 0 10px rgba(15, 211, 233, 0.291);
+    border-radius: 1vw;
+}
+
+#titleoflogo{
+
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0%;
+    font-weight: 600;
+    color:rgb(0, 255, 217);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black ;
+
+}
+
+#clicktosign{
+    text-align: center;
+    width:25vw;
+}
+
+#alreadyUser{
+    text-align: center;
+}
+
+#userAlready{
+    text-decoration: none;
+    color:rgb(11, 177, 223)
+}
+
+
+.signupinput{
+    color:black;
+    font-size: 1.2rem;
+    font-family: "Khand";
+}
+
+
+
+.signupinput::placeholder{
+    color:black;
+    font-size: 1.2rem;
+   font-family: "Khand";
+}
+
+#userAlready:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1024px){
+    #loginText{
+        font-size: 1.2rem;
+    }
+
+    #loginBox{
+        width: 60vw;
+    }
+    .input{
+        width: 58vw;
+    }
+
+    #logb{
+        width: 58vw;
+    }
+
+
+    #signupBox{
+        height: 50vh;
+    }
+
+    .signupinput{
+        color:white;
+        font-size: 1.2rem;
+    }
+    .signupinput::placeholder{
+        color:white;
+        font-size: 1.2rem;
+    }
+
+
 }
