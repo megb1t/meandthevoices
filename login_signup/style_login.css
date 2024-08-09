@@ -3,7 +3,7 @@
 
 html,
 body {
-    background-image: url(peakpx\ \(2\).jpg);
+    background-image: url(/v800-mynt-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Khand";
@@ -48,8 +48,8 @@ body {
     font-size: 1.5rem;
     margin-top: 0%;
     font-weight: 600;
-    color:rgb(0, 255, 217);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black ;
+    color:rgb(10, 168, 173);
+    
     
 }
 
@@ -61,7 +61,7 @@ body {
     padding: 1vw;
     border: 1px solid rgb(11, 177, 223);
     background-color: transparent;
-    color:white;
+    color:rgb(2, 136, 165);
     font-family: "Khand";
     font-size: 1rem;
     
@@ -70,7 +70,7 @@ body {
 .input::placeholder{
     font-family: "Khand";
     font-size: 1rem;
-    color:white
+    color:rgb(2, 136, 165)
   }
 
 
@@ -157,8 +157,8 @@ body {
     font-size: 1.5rem;
     margin-top: 0%;
     font-weight: 600;
-    color:rgb(0, 255, 217);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black ;
+    color:rgb(10, 168, 173);
+    
 
 }
 
@@ -178,7 +178,7 @@ body {
 
 
 .signupinput{
-    color:black;
+    color:rgb(2, 136, 165);
     font-size: 1.2rem;
     font-family: "Khand";
 }
@@ -186,7 +186,7 @@ body {
 
 
 .signupinput::placeholder{
-    color:black;
+    color:rgb(2, 136, 165);
     font-size: 1.2rem;
    font-family: "Khand";
 }
@@ -223,12 +223,10 @@ body {
     }
 
     .signupinput{
-        color:white;
         font-size: 1.2rem;
         width: 78vw;
     }
     .signupinput::placeholder{
-        color:white;
         font-size: 1.2rem;
     }
 
