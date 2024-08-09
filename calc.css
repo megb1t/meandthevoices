@@ -1,0 +1,778 @@
+#calculator{
+    
+    max-width: fit-content;
+    background-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    backdrop-filter: blur(2px);
+    
+}
+
+.time{
+    margin-left: 2vw;
+    padding: 2vw;
+    background-image: url(rm245-bb-62.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border-radius: 0.5vw;
+   
+}
+
+.timeButton{
+    font-family: "Khand";
+    background-color: (163, 89%, 43%, 0.125);
+    backdrop-filter: blur(2px);
+    color:rgb(5, 96, 114);
+    font-size: 2.5rem;
+    border:1px solid rgb(6, 159, 151);
+    border-radius: 0.5vw;
+
+}
+
+#hidetimehere{
+    margin-top: 1vw;
+    display: none;
+    font-size: 1rem;
+}
+
+.timeButton:hover{
+    background-color: hsla(198, 37%, 73%, 0.304);
+}
+
+.timeButton:active{
+    background-color:hsla(199, 37%, 73%, 0.555) ;
+}
+
+#timeshow{
+    cursor: pointer;;
+    text-align: center;
+    border:1px solid rgb(6, 159, 151);
+    border-radius: 0.5vw;
+    width:22vw;
+    color: rgb(5, 96, 114);
+    display: none;
+}
+
+#timelab{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#opencalc{
+    font-family: "Khand";
+    background-color: hsla(163, 89%, 43%, 0.125);
+    width: 25vw;
+    font-size: 2rem;
+    height: 8vh;
+    border: 1px solid;
+    color:rgb(2, 76, 71);
+    backdrop-filter: blur(2px);
+}
+#opencalc:hover{
+
+    background-color: hsla(163, 89%, 10%, 0.125); ;
+
+}
+
+#opencalc:active{
+    background-color: hsl(0,0%, 75%);
+}
+
+#maiin{
+    background-image: url(peakpx\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 30vw;
+    margin:0;
+    padding:0;
+    /* background-color: hsl(0, 0%, 50%); */
+    display: flex;
+    border-radius: 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#display{
+    border:1px solid rgb(10, 236, 142);
+    width: 98%;
+    height: 8vh;
+    color:black;
+    border-radius: 1vw;
+    /* background-color: hsl(0, 0%, 20%); */
+
+    background-color: rgba(255, 255, 255, 0.819);
+    font-family: "Khand";
+    font-size: 3rem;
+    text-align: left;
+}
+
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1vw;
+    padding:1vw;
+}
+
+
+.calcButtons{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 25px;
+    border: 1px solid hsla(167, 93%, 22%, 0.778);
+    /* background-color: hsl(0, 0%, 50%); */
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: "Khand";
+    font-weight: 600;
+   
+}
+
+.calcButtons:hover{
+    /* background-color: hsl(0, 0%, 60%);   */
+
+    background-color: hsla(0, 0%, 65%, 0.318);
+}
+
+.calcButtons:active{
+    background-color: hsl(0, 0%, 80%);;
+}
+.operatorButton:hover{
+    background-color: hsla(0, 90%, 70%, 0.471);  
+}
+
+.operatorButton:active{
+    background-color: hsl(0, 88%, 80%);;
+}
+
+.operatorButton{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 25px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: "Khand";
+    color:hsl(347, 94%, 46%);
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    position: relative;
+    top:2vw;
+}
+
+
+@media (max-width:450px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #opencalc{
+        font-family: "Khand";
+        background-color: rgba(12, 209, 153, 0.125);
+        width: 80vw;
+        font-size: 1.5rem;
+        height: 8vh;
+        border: 1px solid;
+        color:rgb(2, 76, 71);
+        backdrop-filter: blur(2px);
+    }
+    #maiin{
+        position: relative;
+        top:25vw;
+        width:95vw;
+        height: 70vh;
+        background-color: hsl(0, 0%, 50%);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #keys{
+        padding: 5vw;
+    }
+
+    .calcButtons{
+        width:20vw;
+        height: 20vw;
+        border-radius: 25px;
+        font-size: 2rem;
+        font-family: "Khand";
+        font-weight: 600;
+       
+
+    }
+
+    .operatorButton{
+        width:20vw;
+        height: 20vw;
+
+    }
+
+    #calculator{
+        height: 71vh;
+    }
+
+    #display{
+        margin-left: 1vw;
+        border-radius: 2vw;
+        width: 89%;
+        margin-top: 2vw;
+        padding: 15px;
+        font-size: 4rem;
+    }
+
+    .time{
+        width: 91vw;
+        margin-left: 0;
+        margin-top: 28vw;
+        height: 100vh;
+    }
+
+    #timeshow{
+        font-size: 1.5rem;
+        width: 65vw;
+    }
+
+    #showtimehere{
+        font-size: 1.5rem;
+    }
+
+    footer{
+        position: relative;
+        top:3vw;
+    }
+}
+
+
+
+@media (min-width:450px)and (max-width:600px){
+
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #opencalc{
+        font-family: "Khand";
+        background-color: rgba(12, 209, 153, 0.125);
+        width: 80vw;
+        font-size: 2rem;
+        height: 8vh;
+        border: 1px solid;
+        color:rgb(2, 76, 71);
+        backdrop-filter: blur(2px);
+    }
+    #maiin{
+        position: relative;
+        top:25vw;
+        width:95vw;
+        height: 110vh;
+        background-color: hsl(0, 0%, 50%);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #calculator{
+        height: 110vh;
+    }
+
+    #keys{
+        padding: 5vw;
+    }
+
+    .calcButtons{
+        width:20vw;
+        height: 20vw;
+        border-radius: 25px;
+        font-size: 2rem;
+        font-family: "Khand";
+        font-weight: 600;
+       
+
+    }
+
+    .operatorButton{
+        width:20vw;
+        height: 20vw;
+
+    }
+
+    #display{
+        margin-left: 2.5vw;
+        border-radius: 2vw;
+        width: 89%;
+        margin-top: 5vw;
+        padding: 15px;
+        font-size: 4rem;
+    }
+
+    .time{
+        width: 91vw;
+        margin-left: 0;
+        margin-top: 28vw;
+        height: 100vh;
+    }
+
+    #timeshow{
+        font-size: 2rem;
+        width: 50vw;
+    }
+
+    #showtimehere{
+        font-size: 2rem;
+    }
+
+    footer{
+        position: relative;
+        top:3vw;
+    }
+}
+
+@media (min-width:600px)  and (max-width: 980px){
+
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #calculator{
+    
+        max-width: fit-content;
+        background-color: transparent;
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+        backdrop-filter: blur(2px);
+        
+    }
+    
+    #opencalc{
+        font-family: "Khand";
+        background-color: hsla(163, 89%, 43%, 0.125);
+        width: 50vw;
+        font-size: 2rem;
+        height: 8vh;
+        border: 1px solid;
+        color:rgb(2, 76, 71);
+        backdrop-filter: blur(2px);
+    }
+    #opencalc:hover{
+    
+        background-color: hsla(163, 89%, 10%, 0.125); ;
+    
+    }
+    
+    #opencalc:active{
+        background-color: hsl(0,0%, 75%);
+    }
+    
+    #maiin{
+        background-image: url(peakpx\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        margin:0;
+        padding:0;
+        /* background-color: hsl(0, 0%, 50%); */
+        display: flex;
+        border-radius: 0.5vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #display{
+        border:1px solid rgb(10, 236, 142);
+        width: 98%;
+        height: 8vh;
+        color:black;
+        border-radius: 1vw;
+        /* background-color: hsl(0, 0%, 20%); */
+    
+        background-color: rgba(255, 255, 255, 0.819);
+        font-family: "Khand";
+        font-size: 3rem;
+        text-align: left;
+    }
+    
+    
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap:1vw;
+        padding:1vw;
+    }
+    
+    
+    .calcButtons{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 25px;
+        border: 1px solid hsla(167, 93%, 22%, 0.778);
+        /* background-color: hsl(0, 0%, 50%); */
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        font-weight: 600;
+       
+    }
+    
+    .calcButtons:hover{
+        /* background-color: hsl(0, 0%, 60%);   */
+    
+        background-color: hsla(0, 0%, 65%, 0.318);
+    }
+    
+    .calcButtons:active{
+        background-color: hsl(0, 0%, 80%);;
+    }
+    .operatorButton:hover{
+        background-color: hsla(0, 90%, 70%, 0.471);  
+    }
+    
+    .operatorButton:active{
+        background-color: hsl(0, 88%, 80%);;
+    }
+    
+    .operatorButton{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 25px;
+        border: none;
+        background-color: transparent;
+        border: 1px solid red;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        color:hsl(347, 94%, 46%);
+        font-weight: 600;
+    }
+
+    
+    .time{
+        width: 100vw;
+        margin-left: 0;
+        height: 100vh;
+    }
+
+    #timeshow{
+        font-size: 2rem;
+        width: 40vw;
+    }
+
+    #showtimehere{
+        font-size: 2rem;
+    }
+    
+    footer{
+        position: relative;
+        top:2vw;
+    }
+
+}
+
+@media(min-width:980px) and (max-width: 1300px){
+
+    #calculator{
+    
+        max-width: fit-content;
+        background-color: transparent;
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+        backdrop-filter: blur(2px);
+        
+    }
+    
+    #opencalc{
+        font-family: "Khand";
+        background-color: hsla(163, 89%, 43%, 0.125);
+        width: 25vw;
+        font-size: 1.5rem;
+        height: 8vh;
+        border: 1px solid;
+        color:rgb(2, 76, 71);
+        backdrop-filter: blur(2px);
+    }
+    #opencalc:hover{
+    
+        background-color: hsla(163, 89%, 10%, 0.125); ;
+    
+    }
+    
+    #opencalc:active{
+        background-color: hsl(0,0%, 75%);
+    }
+    
+    #maiin{
+        background-image: url(peakpx\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 40vw;
+        margin:0;
+        padding:0;
+        /* background-color: hsl(0, 0%, 50%); */
+        display: flex;
+        border-radius: 0.5vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #display{
+        border:1px solid rgb(10, 236, 142);
+        width: 98%;
+        height: 8vh;
+        color:black;
+        border-radius: 1vw;
+        /* background-color: hsl(0, 0%, 20%); */
+    
+        background-color: rgba(255, 255, 255, 0.819);
+        font-family: "Khand";
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+   
+
+    .time{
+        width: 50vw;
+    }
+
+    #timeshow{
+        font-size: 1.5rem;
+    }
+
+    #showtimehere{
+        font-size: 1.5rem;
+    }
+    
+    
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap:1vw;
+        padding:1vw;
+    }
+    
+    
+    .calcButtons{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 25px;
+        border: 1px solid hsla(167, 93%, 22%, 0.778);
+        /* background-color: hsl(0, 0%, 50%); */
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        font-weight: 600;
+       
+    }
+    
+    .calcButtons:hover{
+        /* background-color: hsl(0, 0%, 60%);   */
+    
+        background-color: hsla(0, 0%, 65%, 0.318);
+    }
+    
+    .calcButtons:active{
+        background-color: hsl(0, 0%, 80%);;
+    }
+    .operatorButton:hover{
+        background-color: hsla(0, 90%, 70%, 0.471);  
+    }
+    
+    .operatorButton:active{
+        background-color: hsl(0, 88%, 80%);;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .operatorButton{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 25px;
+        border: none;
+        background-color: transparent;
+        border: 1px solid red;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        color:hsl(347, 94%, 46%);
+        font-weight: 600;
+    }
+    
+    footer{
+        position: relative;
+        top:2vw;
+    }
+
+   
+
+}
+
+
+
+@media(min-width: 1530px) and (max-width: 1920px){
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #calculator{
+    
+        max-width: fit-content;
+        background-color: transparent;
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+        backdrop-filter: blur(2px);
+        
+    }
+    
+    #opencalc{
+        font-family: "Khand";
+        background-color: hsla(163, 89%, 43%, 0.125);
+        width: 25vw;
+        font-size: 2rem;
+        height: 8vh;
+        border: 1px solid;
+        color:rgb(2, 76, 71);
+        backdrop-filter: blur(2px);
+    }
+    #opencalc:hover{
+    
+        background-color: hsla(163, 89%, 10%, 0.125); ;
+    
+    }
+    
+    #opencalc:active{
+        background-color: hsl(0,0%, 75%);
+    }
+    
+    #maiin{
+        background-image: url(peakpx\ \(4\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 30vw;
+        margin:0;
+        padding:0;
+        /* background-color: hsl(0, 0%, 50%); */
+        display: flex;
+        border-radius: 0.5vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #display{
+        border:1px solid rgb(10, 236, 142);
+        width: 98%;
+        height: 8vh;
+        color:black;
+        border-radius: 1vw;
+        /* background-color: hsl(0, 0%, 20%); */
+    
+        background-color: rgba(255, 255, 255, 0.819);
+        font-family: "Khand";
+        font-size: 3rem;
+        text-align: left;
+    }
+    
+    
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap:1vw;
+        padding:1vw;
+    }
+    
+    
+    .calcButtons{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 25px;
+        border: 1px solid hsla(167, 93%, 22%, 0.778);
+        /* background-color: hsl(0, 0%, 50%); */
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        font-weight: 600;
+       
+    }
+    
+    .calcButtons:hover{
+        /* background-color: hsl(0, 0%, 60%);   */
+    
+        background-color: hsla(0, 0%, 65%, 0.318);
+    }
+    
+    .calcButtons:active{
+        background-color: hsl(0, 0%, 80%);;
+    }
+    .operatorButton:hover{
+        background-color: hsla(0, 90%, 70%, 0.471);  
+    }
+    
+    .operatorButton:active{
+        background-color: hsl(0, 88%, 80%);;
+    }
+    
+    .operatorButton{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 25px;
+        border: none;
+        background-color: transparent;
+        border: 1px solid red;
+        cursor: pointer;
+        font-size: 2rem;
+        font-family: "Khand";
+        color:hsl(347, 94%, 46%);
+        font-weight: 600;
+    }
+    
+    footer{
+        position: relative;
+        top:2vw;
+    }
+    
+    
+    
+
+}

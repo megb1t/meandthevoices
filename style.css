@@ -97,7 +97,7 @@ section {
 
     border: 0.1vw solid black;
     width: 25vw;
-    font-size: 1.5vw;
+    font-size: 0.6rem;
     height: 3.5vh;
     border-radius: 0.29vw;
     padding-right: 10.417px;
@@ -324,10 +324,7 @@ span:hover{
     font-size: 3vw;
 }
 
-.butsoc {
-    position: absolute;
-    left: 38.5vw;
-}
+
 
 
 .instagram {
@@ -346,6 +343,9 @@ span:hover{
 
 @media (min-width: 1280px) and (max-width: 1920px) {
 
+
+    
+    
     #abhead{
         font-weight: 600;
         font-size: larger;
@@ -393,13 +393,13 @@ span:hover{
     .choco {
         top: 4.6vw
     }
-    .time{
+    /* .time{
         font-size: 2rem;
         position: absolute;
         top: 15vw;
         left: 30vw;
         font-family: "Khand";
-    }
+    } */
     
     #timelab{
         
@@ -411,9 +411,10 @@ span:hover{
         transition-duration: 0.5s;
     }
     
-    .socialss{
-        position: relative;
-        top:6vw;
+
+    .butsoc{
+        display: flex;
+        flex-direction: row;
     }
 
 }
@@ -439,13 +440,13 @@ span:hover{
         top:12.5vw;
     }
 
-    .time{
+    /* .time{
         font-size: 2rem;
         position: absolute;
         top: 15vw;
         left: 28vw;
         font-family: "Khand";
-    }
+    } */
     
     #timelab{
         
@@ -518,29 +519,27 @@ span:hover{
         top:12.5vw;
     }
 
-    .time{
+    /* .time{
         font-size:2rem;
         position: absolute;
         top: 15vw;
         left: 28vw;
         font-family: "Khand";
     }
-    
+     */
     #timelab{
         
         font-family: "Khand";
     }
     
 
-    .butsoc {
+    /* .butsoc {
         position: absolute;
         top: 40vw;
-    }
+    } */
 
     .connect {
-        position: absolute;
-        top: 32vw;
-        left: 42.5vw;
+        font-size: 1.5rem;
     }
 
     .dropdown {
@@ -644,9 +643,7 @@ span:hover{
         font-family: "Khand";
         text-align: center;
         font-size: 5vw;
-        position: absolute;
-        top: 58vw;
-        right: 34vw;
+        
     }
 
     .instagram {
@@ -706,12 +703,7 @@ span:hover{
 
     
 
-    .butsoc {
-        position: absolute;
-        left: 32vw;
-        top: 73vw;
-        float: left;
-    }
+    
 
     .dime {
         width: 5.8vw;
@@ -760,9 +752,7 @@ span:hover{
         width: 40vw;;
     }
 
-    .socialss {
-        margin-top: 30vw;
-    }
+    
 
     .foots {
         float: left;
@@ -811,17 +801,23 @@ span:hover{
         margin-bottom: 2vw;
        
     }
-    .time{
+    /* .time{
         position: absolute;
         right: 15.5vw;
         top:52.5vw;
         font-family: "Khand";
-    }
+    } */
 
     #timelab{    
         font-family: "Khand";
     }
+
+    #socialmain{
+    
+        margin-top: 12vh;
+    }
 }
+
 
 
 

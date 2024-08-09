@@ -1,0 +1,40 @@
+body{
+    overflow: scroll;
+}
+
+
+
+#socialmain{
+
+    background-image: url(119104210865.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 82vh;
+    
+
+}
+
+
+
+
+.butsoc:has(img:hover) img:not(:hover){
+    opacity: 0.7;
+    scale:0.8;
+}
+
+
+
+
+.connect{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+    top:1.5vw;
+}
