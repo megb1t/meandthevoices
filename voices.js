@@ -66,3 +66,9 @@ const closeNav = () => {
     document.getElementById("chococococo").style.right = "90vw";
 }
 
+
+document.getElementById('searchHere').onsubmit = function(){
+    location = 'https://www.google.com/search?q=' + document.getElementById('userSearch').value;
+    return false;
+}
+

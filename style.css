@@ -98,11 +98,7 @@ section {
     border: 0.1vw solid black;
     width: 25vw;
     font-size: 0.6rem;
-    height: 3.5vh;
     border-radius: 0.29vw;
-    padding-right: 10.417px;
-    padding-bottom: 0.521px;
-    padding-top: 0.521px;
     font-family: "Khand";
 }
 
@@ -417,6 +413,18 @@ span:hover{
         flex-direction: row;
     }
 
+    .search{
+        font-size: 1.2rem;
+        padding: 0.5vw;
+    }
+    .search::placeholder{
+        font-size: 1.2rem;
+    }
+
+    #sea{
+        font-size:1.2rem;
+    }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
@@ -429,6 +437,29 @@ span:hover{
 
     #myimg{
         width: 18vw;
+    }
+
+    .login{
+        font-size: 1rem;
+    }
+    .signup{
+        font-size: 1rem;
+    }
+
+    .head_nav{
+        font-size: 1.2rem;
+    }
+
+    .search{
+        font-size: 1.2rem;
+        padding: 0.4vw;
+    }
+    .search::placeholder{
+        font-size: 1.2rem;
+    }
+
+    #sea{
+        font-size:1.2rem;
     }
 
 
@@ -554,6 +585,29 @@ span:hover{
         display: none;
     }
 
+    .login{
+        font-size: 1rem;
+    }
+    .signup{
+        font-size: 1rem;
+    }
+
+    .head_nav{
+        font-size: 1.2rem;
+    }
+
+    .search{
+        font-size: 1.2rem;
+        padding: 0.2vw;
+    }
+    .search::placeholder{
+        font-size: 1.2rem;
+    }
+
+    #sea{
+        font-size:1.2rem;
+    }
+
     footer {
         top: 60vw;
     }
@@ -594,6 +648,32 @@ span:hover{
         top: 40vw;
         min-width: 100%;
         left: 1vw;
+    }
+
+    .login{
+        font-size: 1rem;
+    }
+    .signup{
+        font-size: 1rem;
+    }
+
+    .head_nav{
+        font-size: 1.2rem;
+    }
+
+    .search{
+        font-size: 1.2rem;
+        padding: 0.4vw;
+    }
+    .search::placeholder{
+        font-size: 1.2rem;
+    }
+
+    #sea{
+        font-size:1.2rem;
+        position: relative;
+        top:13.5vw;
+        right:11vw;
     }
 
 
@@ -658,7 +738,7 @@ span:hover{
 
     .search {
         position: absolute;
-        width: 44vw;
+        width: 48vw;
         right: 25.6vw;
         top: 15vw;
         height: 3vh;
